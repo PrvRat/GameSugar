@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\flor1.png",
+        "source": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\src\\main\\res\\drawable-mdpi\\flor1.png"
+    },
+    {
+        "merged": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\image.png",
+        "source": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\src\\main\\res\\drawable-mdpi\\image.png"
+    },
+    {
+        "merged": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\wall1.png",
+        "source": "C:\\Users\\badrat\\Documents\\GameSugar\\app\\src\\main\\res\\drawable-mdpi\\wall1.png"
+    }
+]

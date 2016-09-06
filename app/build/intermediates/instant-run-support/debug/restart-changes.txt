@@ -1,0 +1,16 @@
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$array.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$drawable.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$attr.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$id.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$style.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\Bullet.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\MainActivity.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$layout.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\BuildConfig.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\GameView.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$menu.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\GameView$GameThread.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\Layer.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R$string.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\GameView$1.class
+ADDED,C:\Users\badrat\Documents\GameSugar\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\gamesugar\R.class
