@@ -9,7 +9,7 @@ import android.graphics.Paint.Style;
 
 public class Bullet
 {
-    /**Картинка*/
+    /**Картинка */
     private Bitmap bmp;
 
     /**Координаты цели*/

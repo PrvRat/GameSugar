@@ -9,7 +9,7 @@ import android.graphics.Rect;
 import android.graphics.Canvas;
 
 public class Layer {
-	/**Карта коллизий видимая*/
+	/**Карта коллизий видимая */
 	public int mapColl[][] = new int [15][23];
 	/**карта пола видимая*/
 	public int mapFlor[][] = new int[15][23];

@@ -18,7 +18,7 @@ import android.view.SurfaceView;
 
 public class GameView extends SurfaceView
 {
-    /**Объект класса GameLoopThread*/
+    /**Объект класса GameLoopThread */
     private GameThread mThread;
 
     public int shotX;

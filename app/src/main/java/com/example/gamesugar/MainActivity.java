@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 
-			// если хотим, чтобы приложение постоянно имело книжную ориентацию
+			// если хотим, чтобы приложение постоянно имело книжную  ориентацию
 	        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
 			// если хотим, чтобы приложение было полноэкранным
