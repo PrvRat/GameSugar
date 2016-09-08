@@ -4,8 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
 import android.graphics.Paint.Style;
+import android.graphics.Rect;
 
 public class Bullet
 {
@@ -29,7 +29,7 @@ public class Bullet
     public int yAbs;
 
     /**Скорость */
-    private int mSpeed=5;
+    private int mSpeed=3;
 
     public double angle;
 
@@ -111,16 +111,17 @@ public class Bullet
         else
         {xAbs = xTargetAbs;
             yAbs = yTargetAbs;
-        };
+        }
 
         //переход от бсолютных координат к локальным
         absToLocal();
 
         //анимация спрайта
-        int srcX = currentFrame * width;
+        animSprite();
+        /*int srcX = currentFrame * width;
         int srcY = currentRow * height;
         src = new Rect(srcX, srcY, srcX + width, srcY + height);
-        dst = new Rect(x, y, x + width, y + height);
+        dst = new Rect(x, y, x + width, y + height);*/
     }
 
 
@@ -137,21 +138,21 @@ public class Bullet
     }
 
     /**Анимация спрайта */
-    /*   private void animSprite(Canvas canvas){
+       private void animSprite(){
     	 //шаг раз
     	int srcX = currentFrame * width;
         int srcY = currentRow * height;
         src = new Rect(srcX, srcY, srcX + width, srcY + height);
         dst = new Rect(x, y, x + width, y + height);
-        canvas.drawBitmap(bmp, src, dst, null);
+        //canvas.drawBitmap(bmp, src, dst, null);
 
-    	   if (stopAnim == 0) {
+    	  /* if (stopAnim == 0) {
            //шаг два
             currentFrame = ++currentFrame % BMP_COLUMNS;
             srcX = currentFrame * width;
             src = new Rect(srcX, srcY, srcX + width, srcY + height);
-            canvas.drawBitmap(bmp, src, dst, null);}
-       }*/
+            canvas.drawBitmap(bmp, src, dst, null);}*/
+       }
 
     /**Запоминаем предыдущее положение спрайта */
     private void setPrev(){

@@ -1,11 +1,5 @@
 package com.example.gamesugar;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -161,15 +155,19 @@ public class GameView extends SurfaceView
     /**Проверка на столкновения*/
     private void testCollision() {
 
-        if (layer1.hasColl(Dbullet.x, Dbullet.y) == 1)
+        if (layer1.hasColl(Dbullet.x, Dbullet.y) == 1){
             //чего делаем когда столкнулись
-            Dbullet.stepBack();
+            Dbullet.stepBack();}
         if (layer1.hasColl(Dbullet.x, Dbullet.y) == 2){
             //чего делаем когда чуть задели
             Dbullet.normPos(Dbullet.x+16, Dbullet.y+16);//нормализуем
-            if (layer1.hasColl(Dbullet.x, Dbullet.y) != 0)
+            if (layer1.hasColl(Dbullet.x, Dbullet.y) == 1){
             //снова проверяем
-            { Dbullet.stepBack();}
+                Dbullet.stepBack();
+                }
+            else {
+                Dbullet.normPos(Dbullet.x+16, Dbullet.y+16);//нормализуем}
+            }
         }
         	/*else
 

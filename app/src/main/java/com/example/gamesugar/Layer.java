@@ -2,11 +2,11 @@ package com.example.gamesugar;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
-import android.graphics.Canvas;
 
 public class Layer {
 	/**Карта коллизий видимая */
@@ -100,29 +100,29 @@ public class Layer {
 	/** Устоновка области видимости */
 	public void setViewPort(int starti, int startj){
 		//ограничения не прокручивать за пределы экрана
-		//движение по y
+		//движение по y getWidth() getHeight()
 		if (starti<0)
 			starti=0;
-		if (starti>16)
-			starti=16;
+		if (starti>22)
+			starti=22;
 
 		System.arraycopy(mapFlorAll,starti, mapFlor,0,15);
 		System.arraycopy(mapCollAll,starti, mapColl,0,15);
-		shiftY = starti;
+		shiftY = startj;
 
 		//движение по x
 		if (startj<0)
 			startj=0;
-		if (startj>22)
-			startj=22;
+		if (startj>16)
+			startj=16;
 
 		for (int i = 0;i<mapColl.length;i++){
 			for (int j = 0;j<mapColl[i].length;j++){
-				mapColl[i][j]=mapCollAll[i][j+startj];
+				mapColl[i][j]=mapCollAll[i+starti][j+startj];
 			}
 		}
 
-		shiftX = startj;
+		shiftX = starti;
 
 	}
 
